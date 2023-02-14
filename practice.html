@@ -8,9 +8,9 @@
             function checkAge() {
                 var age = document.myForm.age.value;
                 if (age > 65) {
-                    document.write("true");
+                    alert("true")
                 } else {
-                    document.write("false");
+                    alert("false");
                 }
             }
             function multiply(){
@@ -43,15 +43,18 @@
     </head>
     <body>
         <h1 id="task1">Task 1</h1>
+        <p>Changes Color when clicked</p>
         <button onclick="changeToGreen()">Green</button>
         <hr />
         <h1>Task 2</h1>
+        <p>If number > 65 true</p>
         <form name="myForm">
             <input type="number" name="age" />
             <input type="button" value="Check" onclick="checkAge()">
         </form>
         <hr />
         <h1>Task 3</h1>
+        <p>MDAS 2 numbers</p>
         <form name ="calculator">
             <input type="number" name="num1">
             <input type="number" name="num2">
